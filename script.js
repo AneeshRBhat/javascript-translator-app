@@ -2,8 +2,7 @@ var inputText = document.querySelector("#input-text")
 var btnTranslate = document.querySelector("#btn-translate")
 var outputArea = document.querySelector("#output-area")
 
-// var serverURL = "https://api.funtranslations.com/translate/shakespeare.json"
-var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var serverURL = "https://api.funtranslations.com/translate/shakespeare.json"
 function makeTranslationURL(textInput) {
     return serverURL + "?text=" + textInput
 }

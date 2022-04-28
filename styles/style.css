@@ -100,7 +100,8 @@ body {
 .sub-heading {
     text-align: center;
     color: var(--ruby);
-    margin: 2rem;
+    margin: 0;
+    padding-bottom: 1rem;
 }
 
 .output-placeholder {
